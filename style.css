@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fcfcfc;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Press Start 2P', serif;
+}
+h1{
+    margin-top: 2em;
+}
+p,span,div{
+    font-family: 'Press Start 2P', sans-serif;
+}
+.restart-button{
+    margin-top:1em;
+    display:inline-block;
+    color: white;
+    padding: 2em 1em;
+    border: 5px solid rgb(0, 0, 148);
+    background-color:blue;
+    width: auto;
+    text-decoration: none;
+}
+.restart-button.hidden{
+    display: none;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 70%;
+    margin:auto;
+}
+.ui-container{
+    margin: auto;
+    border: 5px solid #222;
+    margin-top: 4rem;
+    box-shadow: 4px 4px 4px rgba(0,0,0, .3);
+    background-color: #eeeeee;
+}
+.ui{
+    border-top: 5px solid #222;
+}
+.element{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    opacity: .8;
+    scale: .9;
+    transition: all .1s;
+    cursor: pointer;
+}
+.element:hover{
+    opacity: 1;
+    scale: 1;
+}
+
+.enemy-choice{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-right:5px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enemy-choice_text{
+    font-size: .8rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.enemy-choice_text.hidden{
+    visibility: hidden;
+}
+.output{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.flex-h{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-item-h{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item-h-3{
+    flex: 4;
+}
+
+.red{
+    color:	#cc0000;
+}
+.blue{
+    color:#3d85c6;
+}
+.green{
+    color: 	#6aa84f;
+}
+.choices .element:hover{
+    text-shadow: 2px 2px 2px rgba(0,0,0,.15);
+}
+.fa-book-skull{
+    color: #222;
+}
+
+.fa-skull,.fa-medal{
+    color: #fff;
+}
